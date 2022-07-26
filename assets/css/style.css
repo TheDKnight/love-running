@@ -113,14 +113,14 @@ h2 {
 #left-about {
     padding-top: 30px;
     width: 33%;
-    float:left;
+    float: left;
 
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float:right;
+    float: right;
 }
 
 #center-about {
@@ -128,21 +128,22 @@ h2 {
     margin: 0 auto;
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
 
 }
 
-.left-about-heading{
+.left-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
-.right-about-heading{
+
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -150,20 +151,21 @@ hr{
     margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-#circle-container{
+
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -175,14 +177,14 @@ hr{
 
 }
 
-#circle-cover-bg{
-    background: url(../images/ethos-center-image.jpg) no-repeat center center ;
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#times{
-    background-image: url(../images/dublin-city.webp) ;
+#times {
+    background-image: url(../images/dublin-city.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,9 +192,9 @@ hr{
     width: 100%;
 }
 
-#times div{
-    color:#fafafa;
-    background-color: rgb(0, 0, 0,.6);
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -202,20 +204,20 @@ hr{
     box-sizing: border-box;
 }
 
-#times h2{
+#times h2 {
     color: #fafafa;
 }
 
-footer{
+footer {
     height: 150px;
 
 }
 
-.social-networks{
- text-align: center;
+.social-networks {
+    text-align: center;
 }
 
-.social-networks > li{
+.social-networks>li {
     display: inline;
 }
 
@@ -226,41 +228,46 @@ footer{
     color: #3a3a3a;
 }
 
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
-#photos > img{
+
+#photos>img {
     width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    #club-ethos{
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
 
     }
-    #welcome{
+
+    #welcome {
         padding: 30px 0;
         margin: 0;
-  
+
     }
-    #left-about, #right-about{
-            width: 100%;
-            float: left;
-            padding: 0;
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
     }
-    #center-about{
+
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
     }
 }
@@ -277,4 +284,34 @@ footer{
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+       
+        text-align: center;
+        padding: 0 20px;
+    }
+
 }
